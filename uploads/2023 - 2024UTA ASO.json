@@ -1,0 +1,106 @@
+[
+    {
+        "index": 0,
+        "hashAnterior": "",
+        "timestamp": 1704944416244,
+        "data": "Blockchain",
+        "nonce": 328,
+        "hash": "00b3ce883563205d5df2a646b0817ac3d5535550ab96c9cdee3631891dcc1d27"
+    },
+    {
+        "index": 1,
+        "hashAnterior": "00b3ce883563205d5df2a646b0817ac3d5535550ab96c9cdee3631891dcc1d27",
+        "timestamp": 1704944560017,
+        "data": {
+            "id": 43,
+            "nom_lista": "UNION LISTA 1",
+            "descripcion": "UNION ESTUDIANTIL",
+            "logo": "download.jpg",
+            "estado": true,
+            "id_proceso": 7,
+            "contenido": ""
+        },
+        "nonce": 350,
+        "hash": "00990eef92e7a158278362189c5f7fa5a74e6c66cb6d1f2dd7c1e1aaab06d6bc"
+    },
+    {
+        "index": 2,
+        "hashAnterior": "00990eef92e7a158278362189c5f7fa5a74e6c66cb6d1f2dd7c1e1aaab06d6bc",
+        "timestamp": 1704944571985,
+        "data": {
+            "id": 43,
+            "nom_lista": "UNION LISTA 1",
+            "descripcion": "UNION ESTUDIANTIL",
+            "logo": "download.jpg",
+            "estado": true,
+            "id_proceso": 7,
+            "contenido": ""
+        },
+        "nonce": 229,
+        "hash": "002b701d984b97770d453e1209b719c3bedcfd69cd3a510ca4e599618daf72fa"
+    },
+    {
+        "index": 3,
+        "hashAnterior": "002b701d984b97770d453e1209b719c3bedcfd69cd3a510ca4e599618daf72fa",
+        "timestamp": 1704944582832,
+        "data": {
+            "id": 39,
+            "nom_lista": "SER LISTA 2",
+            "descripcion": "SER ESTUDIANTIL",
+            "logo": null,
+            "estado": true,
+            "id_proceso": 7,
+            "contenido": ""
+        },
+        "nonce": 907,
+        "hash": "002b8520790be07f861c8e29f6921eaa41bd1b84d1188c6e79711073abf5e9f5"
+    },
+    {
+        "index": 4,
+        "hashAnterior": "002b8520790be07f861c8e29f6921eaa41bd1b84d1188c6e79711073abf5e9f5",
+        "timestamp": 1704944620762,
+        "data": {
+            "id": 43,
+            "nom_lista": "UNION LISTA 1",
+            "descripcion": "UNION ESTUDIANTIL",
+            "logo": "download.jpg",
+            "estado": true,
+            "id_proceso": 7,
+            "contenido": ""
+        },
+        "nonce": 475,
+        "hash": "0018681cd562fb9c3557ab1dccdf7391f41ca465974092fc4d4fd74d665ee619"
+    },
+    {
+        "index": 5,
+        "hashAnterior": "0018681cd562fb9c3557ab1dccdf7391f41ca465974092fc4d4fd74d665ee619",
+        "timestamp": 1704944638922,
+        "data": {
+            "id": 39,
+            "nom_lista": "SER LISTA 2",
+            "descripcion": "SER ESTUDIANTIL",
+            "logo": null,
+            "estado": true,
+            "id_proceso": 7,
+            "contenido": ""
+        },
+        "nonce": 744,
+        "hash": "0018c066a4a710bca3a824dd614f4ae5bf7e3ef9ee400a1177883490c1503428"
+    },
+    {
+        "index": 6,
+        "hashAnterior": "0018c066a4a710bca3a824dd614f4ae5bf7e3ef9ee400a1177883490c1503428",
+        "timestamp": 1704944648206,
+        "data": {
+            "id": 52,
+            "nom_lista": "BLANCO",
+            "descripcion": "BLANCO",
+            "logo": null,
+            "estado": true,
+            "id_proceso": 7,
+            "contenido": ""
+        },
+        "nonce": 1582,
+        "hash": "00d123af45af998428ccad7c679b0ebf4d6f2dbac6c897b679caa1cec84bbefc"
+    }
+]
