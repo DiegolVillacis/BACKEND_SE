@@ -19,7 +19,7 @@ const fileUpload = require('express-fileupload');
 const app: Application = express();
 
 // settings
-app.set('port', process.env.PORT || 3001);
+app.set('port', process.env.PORT ?? 3001);
 
 // middlewares
 app.use(morgan('dev'));
