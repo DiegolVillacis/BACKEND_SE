@@ -53,3 +53,4 @@ app.use('/api/operaciones', seguridadRoutes);
 app.use('/uploads', express.static(path.resolve('uploads')))
 
 export default app;
+
