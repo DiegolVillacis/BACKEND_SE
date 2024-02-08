@@ -1,8 +1,10 @@
 import { Request, Response, NextFunction } from 'express';
-import jwt from 'jsonwebtoken';
 import {pool} from '../DB/conexionDB'
 import { Votacion } from '../models/votacionesModelsInterface';
 import { Menu, User } from '../models/userModels';
+
+
+import jwt from 'jsonwebtoken';
 
 interface IPayload {
     _id: number,
@@ -23,6 +25,7 @@ interface current {
 export const tokenGenerate = async (req: Request, res: Response, next: NextFunction) => {
 
     try {
+
         const auth: any = req.header('authorization')
         const token = auth.split(' ')[1];
     
@@ -31,12 +34,11 @@ export const tokenGenerate = async (req: Request, res: Response, next: NextFunct
         const payload = jwt.verify(token, process.env.TOKEN_SECRET || 'tokentest') as IPayload;
 
         if (!payload) return res.status(401).jsonp({ message: 'Token invalido' });
-
-
         
         req.userId = payload._id;
         req.userRol = payload.rol;
         req.menu = payload.menu;
+        
         if (payload.votacion !== undefined) {
             req.votacion = payload.votacion;
         }
